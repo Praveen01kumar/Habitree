@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habitree</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              '50': '#f0fdf4',
+              '100': '#dcfce7',
+              '200': '#bbf7d0',
+              '300': '#86efac',
+              '400': '#4ade80',
+              '500': '#22c55e',
+              '600': '#16a34a',
+              '700': '#15803d',
+              '800': '#166534',
+              '900': '#14532d',
+              '950': '#052e16',
+            },
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+<script type="importmap">
+{
+  "imports": {
+    "rxjs": "https://aistudiocdn.com/rxjs@^7.8.2?conditions=es2015",
+    "rxjs/operators": "https://aistudiocdn.com/rxjs@^7.8.2/operators?conditions=es2015",
+    "rxjs/ajax": "https://aistudiocdn.com/rxjs@^7.8.2/ajax?conditions=es2015",
+    "rxjs/webSocket": "https://aistudiocdn.com/rxjs@^7.8.2/webSocket?conditions=es2015",
+    "rxjs/testing": "https://aistudiocdn.com/rxjs@^7.8.2/testing?conditions=es2015",
+    "rxjs/fetch": "https://aistudiocdn.com/rxjs@^7.8.2/fetch?conditions=es2015",
+    "@angular/compiler": "https://next.esm.sh/@angular/compiler@^20.3.10?external=rxjs",
+    "@angular/platform-browser": "https://next.esm.sh/@angular/platform-browser@^20.3.10?external=rxjs",
+    "@angular/core": "https://next.esm.sh/@angular/core@^20.3.10?external=rxjs",
+    "@angular/common": "https://next.esm.sh/@angular/common@^20.3.10?external=rxjs",
+    "@angular/forms": "https://next.esm.sh/@angular/forms@^20.3.10?external=rxjs",
+    "@google/genai": "https://next.esm.sh/@google/genai@^1.29.0?external=rxjs",
+    "react/jsx-runtime": "https://next.esm.sh/react@^19.2.0/jsx-runtime?external=rxjs",
+    "@angular/router": "https://next.esm.sh/@angular/router@^20.3.10?external=rxjs",
+    "@angular/cdk/drag-drop": "https://next.esm.sh/@angular/cdk@^20.2.12/drag-drop?external=rxjs",
+    "d3": "https://next.esm.sh/d3@^7.9.0?external=rxjs",
+    "chart.js": "https://esm.sh/chart.js@4.4.2",
+    "chartjs-adapter-date-fns": "https://esm.sh/chartjs-adapter-date-fns@3.0.0",
+    "chartjs-chart-matrix": "https://esm.sh/chartjs-chart-matrix@2.0.1",
+    "date-fns": "https://esm.sh/date-fns@3.6.0",
+    "date-fns/parseISO": "https://next.esm.sh/date-fns@^4.1.0/parseISO?external=rxjs",
+    "date-fns/isSameDay": "https://next.esm.sh/date-fns@^4.1.0/isSameDay?external=rxjs",
+    "date-fns/subDays": "https://next.esm.sh/date-fns@^4.1.0/subDays?external=rxjs",
+    "date-fns/startOfDay": "https://next.esm.sh/date-fns@^4.1.0/startOfDay?external=rxjs",
+    "date-fns/format": "https://next.esm.sh/date-fns@^4.1.0/format?external=rxjs"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-slate-100 dark:bg-slate-900 transition-colors duration-300">
+  <app-root></app-root>
+</body>
+</html>

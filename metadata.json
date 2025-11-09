@@ -1,0 +1,7 @@
+{
+  "name": "Habitree",
+  "description": "Transform your life, one habit at a time, with Habitree. More than just a tracker, Habitree is your personal growth companion that turns self-improvement into a beautiful, rewarding journey. Plant a seed for each new habit and watch it grow into a flourishing tree with every day you commit. Our AI-powered ecosystem integrates a habit tracker, goal planner, reflection journal, and focus timer to provide personalized insights and guide you toward a more focused, balanced, and fulfilling life.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
