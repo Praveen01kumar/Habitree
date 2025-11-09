@@ -27,8 +27,3 @@ Habitree is more than just a habit tracker — it’s your **personal growth com
 | **Reactive Programming** | [RxJS](https://rxjs.dev/) |
 | **Build Tools** | Angular CLI, Vite |
 | **Language** | TypeScript 5.8+ |
-
----
-
-## 📂 Project Structure
-
